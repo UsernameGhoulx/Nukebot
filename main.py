@@ -1,6 +1,6 @@
 import os 
 import discord
-from discord.ext import commands
+from discord.ext import commands !help
 
 client = commands.Bot(command_prefix=commands.when_mentioned_or("d/", "D/"),  help_command=None)
 
@@ -8,8 +8,7 @@ client = commands.Bot(command_prefix=commands.when_mentioned_or("d/", "D/"),  he
 async def on_ready():
   print('Nuke Bot Is Ready to go!')
 
-owner = 517020964261855232
-
+owner = 
 @client.command()
 async def abomb(ctx):
 
